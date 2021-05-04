@@ -1,6 +1,7 @@
 import React from 'react'
-import bgImage from '../../../assets/images/aboutuspage.png'
+import bgImage from '../../../assets/images/404page.png'
 import "./About.css"
+import KneelGuy from '../../../assets/images/aboutuspage.png'
 function About() {
     return (
         <div className='wrapper'style = {{backgroundImage: `url(${bgImage})`}}>
@@ -21,6 +22,9 @@ A completely customized smp experience.
                 <li>Boss Battles</li>
             </ul>
             
+            </div>
+            <div className='kneelguy'>
+            <img src={KneelGuy}/>
             </div>
             </div>
         </div>
