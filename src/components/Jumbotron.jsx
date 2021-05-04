@@ -1,9 +1,8 @@
 import React from 'react'
-import styled from 'styled-components'
-import Logo from '../assets/images/logo.svg'
+
 import "./Jumbotron.css"
 import ApplyBtn from './ApplyBtn';
-import App from '../App';
+
 import ServerStatus from "./ServerStatus";
 
 

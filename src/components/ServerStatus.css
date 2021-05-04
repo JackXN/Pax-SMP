@@ -1,14 +1,24 @@
 .status {
     display: flex;
-    position: relative;
-    bottom: 100px;
+  position: absolute;
+  top:0;
+  margin-top: 20px;
     align-items: center;
     justify-content: center;
     text-align: center;
     font-size: 15px;
-
+    font-size: 10px;
+    /* display: none; */
 }
 
 h1:nth-child(2) {
     color: green;
+}
+
+
+@media screen and (min-width: 700px) {
+    .status {
+        display: flex;
+        font-size: 15px;
+    }
 }

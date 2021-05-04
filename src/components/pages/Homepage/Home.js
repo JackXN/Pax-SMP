@@ -9,7 +9,7 @@ function Home() {
     return (
         <div className = 'wrapper' style= {{backgroundImage: `url(${bgImage})`}}> 
           <div className = 'layer'>
-            
+  
         <Jumbotron/>
         </div>
         </div>

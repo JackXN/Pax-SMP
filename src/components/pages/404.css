@@ -40,3 +40,16 @@ span {
     color: red;
     font-family: 'minecrafter';
 }
+
+
+p {
+    color: gray;
+    position:relative;
+    top:20px;
+    font-weight: lighter;
+}
+
+p:hover {
+    color: green;
+    border: red;
+}

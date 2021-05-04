@@ -1,9 +1,9 @@
-import React,{useState, useEffect} from 'react';
-import Navbar from './components/Navbar';
+import React from 'react';
+
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Home from './components/pages/Homepage/Home';
 import './App.css';
-import Application from './components/pages/ApplicationPage/Application';
+
 import Form from './components/pages/ApplicationPage/Form';
 import NotFound from './components/pages/404';
 function App() {
