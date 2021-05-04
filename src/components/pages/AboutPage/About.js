@@ -1,5 +1,5 @@
 import React from 'react'
-import bgImage from '../../../assets/images/404page.png'
+import bgImage from '../../../assets/images/404page.jpeg'
 import "./About.css"
 import KneelGuy from '../../../assets/images/aboutuspage.png'
 function About() {
