@@ -7,13 +7,13 @@ function ApplyBtn() {
     return (
         <Router>
         <div className = 'buttonContainer'>
-            <Link to='/404'>
-        <button type='button'>Shop</button>
-        </Link>
+            
+        <button type='button'> <a href='/404'>Shop</a></button>
+    
         <button type='button'> <a href='https://discord.gg/hbsHm5he'>Discord</a></button>
-        <Link to ='/404'>
-        <button type='button'><a href="">Events</a></button>
-        </Link>
+        <button type='button'><a href="/404">Events</a></button>
+
+        <button type='button'><a id='about' href='/about'>About us</a></button>
         <Switch>
             <Route exact={true} path='/404'>
                 <NotFound/>
