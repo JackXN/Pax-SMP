@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Home.css"
-import bgImage from '../../../assets/images/mcbg.png'
+import bgImage from '../../../assets/images/mcbg.jpeg'
 import Jumbotron from '../../../components/Jumbotron';
 import {Link, BrowserRouter as Router, Route,Switch } from 'react-router-dom';
 import ApplyBtn from '../../ApplyBtn';

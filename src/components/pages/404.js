@@ -1,7 +1,7 @@
 import React from 'react'
 import "./404.css"
 import {BrowserRouter as Router, Link} from 'react-router-dom';
-import bgImage from '../../assets/images/404page.png'
+import bgImage from '../../assets/images/404page.jpeg'
 
 function NotFound() {
     return (
