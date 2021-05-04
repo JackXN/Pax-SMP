@@ -1,0 +1,77 @@
+
+@font-face {
+    font-family: 'minecrafter';
+    src: local('minecrafter'), url('/src/fonts/Minecrafter_3.ttf');
+  }
+
+
+h2 {
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+button {
+    margin: 20px;
+    background: rgb(24,27,29, 0.3);
+    padding: 15px;
+    border: solid white 2px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: 'Barlow Condensed', sans-serif;
+    transition: background 1s, color 1s, border 1s;
+    font-family: 'minecrafter';
+}
+
+button:hover {
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    border: none;
+    }
+
+    a {
+        text-decoration: none;
+        font-family: 'minecrafter';
+        color: white;
+        transition: background 1s, color 1s, border 1s;
+    }
+    
+
+    a:hover {
+        background: #f09433; 
+        background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+        background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+        background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+        color:transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+    
+        
+    }
+
+
+@media screen and (min-width: 700px) {
+    .buttonContainer {
+        display: flex;
+        flex-direction: row;
+    }
+}
+

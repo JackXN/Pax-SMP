@@ -1,0 +1,14 @@
+.status {
+    display: flex;
+    position: relative;
+    bottom: 100px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+
+}
+
+h1:nth-child(2) {
+    color: green;
+}
