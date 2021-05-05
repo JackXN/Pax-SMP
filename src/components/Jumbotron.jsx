@@ -14,7 +14,7 @@ function Jumbotron() {
         <div className = 'container'>
             <ServerStatus/>
             <div className = 'intro'>
-       <h1>PAX <br/> <span>SMP</span></h1>
+       <h1 id ='pax'>PAX <br/> <span id='smp'>SMP</span></h1>
        </div>
        <div className='applybtn'>
            <ApplyBtn/>

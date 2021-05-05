@@ -5,9 +5,9 @@ function SocialIcons() {
     return (
 
         <div className='social-icons'>
-            <span className='icon'><Twitter/></span>
-            <span className='icon'> <Instagram/></span> 
-        <span className='icon'><Youtube/></span>
+            <a className='icon' href='https://twitter.com/PAX68127662' target='_blank'><Twitter/></a>
+            <span className='icon' > <Instagram/></span> 
+        <a className='icon'><Youtube/></a>
         </div>
     )
 }

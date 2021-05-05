@@ -57,6 +57,23 @@ img {
     left: 40px;
 }
 
+#smp{
+    transition: color 1.3s;
+}
+
+#pax {
+    transition: color 1.3s;
+}
+#smp:hover {
+    color: white;
+    cursor: pointer;
+}
+#pax:hover {
+color: darkblue;
+cursor: pointer;
+}
+
+
 
 
 
