@@ -11,9 +11,9 @@ function ApplyBtn() {
         <button type='button'> <a href='https://docs.google.com/forms/d/e/1FAIpQLScw_Ic75veXwI5P5pbdeUiK7pvvNWbJT0muLng0h2TYPMTolg/viewform'>Apply Now</a></button>
     
         <button type='button'> <a href='https://discord.gg/hbsHm5he'>Discord</a></button>
-        <button type='button'><a href="/404">Events</a></button>
+        {/* <button type='button'><a href="/404">Events</a></button> */}
 
-        <button type='button'><a id='about' href='/404'>About us</a></button>
+        {/* <button type='button'><a id='about' href='/404'>About us</a></button> */}
         <Switch>
             <Route exact={true} path='/404'>
                 <NotFound/>
