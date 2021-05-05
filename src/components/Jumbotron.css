@@ -36,6 +36,8 @@ img {
     font-family: 'MinecrafterAltRegular';
     font-weight: normal;
     font-style: normal;
+    position: relative;
+    top: 20px;
 
 }
 
@@ -53,7 +55,7 @@ img {
     color: red;
     position:relative;
     left: 40px;
-    top: 40px;
+    
 
 }
 
