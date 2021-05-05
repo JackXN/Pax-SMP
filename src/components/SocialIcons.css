@@ -1,0 +1,37 @@
+.social-icons{
+    color: white;
+    font-size: 34px;
+    display: flex;
+
+}
+
+.icon {
+    color: white;
+    transition: color 1s, transform 2s;
+
+}
+
+.icon:nth-child(2) {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.icon:hover {
+    color: red;
+    cursor: pointer;
+    transform: scale(5px);
+}
+
+span:nth-child(1):hover {
+    color: blue;
+}
+
+span:nth-child(2):hover {
+    color: brown;
+}
+
+    span:nth-child(3):hover {
+        color:red
+    }
+
+
