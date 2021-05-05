@@ -5,7 +5,7 @@ function ServerStatus() {
         <div className='status'>
             <h1>Server Status: </h1>
             
-             <h1>     Offline</h1>
+             <h1>     Online</h1>
         </div>
     )
 }

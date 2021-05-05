@@ -1,8 +1,5 @@
 
-@font-face {
-    font-family: 'minecrafter';
-    src: local('minecrafter'), url('/src/fonts/Minecrafter_3.ttf');
-  }
+
 
 .container {
 position: absolute;
@@ -36,23 +33,30 @@ img {
     text-transform: uppercase;
     text-align: center;
     justify-content: center;
+    font-family: 'MinecrafterAltRegular';
+    font-weight: normal;
+    font-style: normal;
 
 }
 
 .intro h1 {
-    font-family: 'minecrafter';
     letter-spacing: 2px;
-    font-weight: lighter;
+    font-weight: normal;
+    font-style:normal;
+    
+
 }
 
 
 .intro span {
-    font-family: 'minecrafter';
+    font-family: 'MinecrafterAltRegular';
+    color: red;
     position:relative;
     left: 40px;
     top: 40px;
 
 }
+
 
 
 

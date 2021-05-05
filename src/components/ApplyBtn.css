@@ -1,8 +1,5 @@
 
-@font-face {
-    font-family: 'minecrafter';
-    src: local('minecrafter'), url('/src/fonts/Minecrafter_3.ttf');
-  }
+
 
 
 h2 {
@@ -31,7 +28,9 @@ button {
     font-weight: bolder;
     font-family: 'Barlow Condensed', sans-serif;
     transition: background 1s, color 1s, border 1s;
-    font-family: 'minecrafter';
+    font-family: 'MinecrafterAltRegular';
+    font-weight: normal;
+    font-style: normal;
 }
 
 button:hover {
@@ -48,7 +47,9 @@ button:hover {
 
     a {
         text-decoration: none;
-        font-family: 'minecrafter';
+        font-family: 'MinecrafterAltRegular';
+    font-weight: normal;
+    font-style: normal;
         color: white;
         transition: background 1s, color 1s, border 1s;
     }

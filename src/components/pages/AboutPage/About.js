@@ -24,7 +24,7 @@ A completely customized smp experience.
             
             </div>
             <div className='kneelguy'>
-            <img src={KneelGuy}/>
+            <img alt='npc-1'src={KneelGuy}/>
             </div>
             </div>
         </div>

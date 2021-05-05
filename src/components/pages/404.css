@@ -1,9 +1,6 @@
 
 
-@font-face {
-    font-family: 'minecrafter';
-    src: local('minecrafter'), url('/src/fonts/Minecrafter_3.ttf');
-  }
+
 
 .wrapper {
     display: flex;
@@ -12,7 +9,9 @@
     flex-direction: column;
     height:100vh;
     width: 100%;
-    font-family: 'minecrafter';
+    font-family: 'MinecrafterAltRegular';
+    font-weight: normal;
+    font-style: normal;
 }
 
 
@@ -28,17 +27,23 @@
     justify-content: center;
     align-items:center;
     flex-direction: column;
-    font-family: 'minecrafter';
+    font-family: 'MinecrafterAltRegular';
+    font-weight: normal;
+    font-style: normal;
     line-height: 40px;
 }
 
 .layer h1, h2 {
-    font-family: 'minecrafter';
+    font-family: 'MinecrafterAltRegular';
+    font-weight: normal;
+    font-style: normal;
 }
 
 span {
     color: red;
-    font-family: 'minecrafter';
+    font-family: 'MinecrafterAltRegular';
+    font-weight: normal;
+    font-style: normal;
 }
 
 
