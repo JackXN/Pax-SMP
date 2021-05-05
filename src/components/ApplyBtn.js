@@ -8,7 +8,7 @@ function ApplyBtn() {
         <Router>
         <div className = 'buttonContainer'>
             
-        <button type='button'> <a href='/404'>Shop</a></button>
+        <button type='button'> <a href='https://docs.google.com/forms/d/e/1FAIpQLScw_Ic75veXwI5P5pbdeUiK7pvvNWbJT0muLng0h2TYPMTolg/viewform'>Apply Now</a></button>
     
         <button type='button'> <a href='https://discord.gg/hbsHm5he'>Discord</a></button>
         <button type='button'><a href="/404">Events</a></button>
