@@ -63,6 +63,7 @@ img {
 
 #pax {
     transition: color 1.3s;
+    color: white;
 }
 #smp:hover {
     color: white;
