@@ -7,7 +7,7 @@ function SocialIcons() {
         <div className='social-icons'>
             <a className='icon' href='https://twitter.com/PAX68127662'rel='noreferrer'  target='_blank'><Twitter/></a>
             <span className='icon' > <Instagram/></span> 
-        <a className='icon' href="#"><Youtube/></a>
+        <a className='icon' href="https://youtube.com"><Youtube/></a>
         </div>
     )
 }

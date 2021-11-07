@@ -1,7 +1,16 @@
+*{
+   color: white;
+}
+
+
+
 .social-icons{
     color: white;
     font-size: 34px;
     display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 
 }
 
